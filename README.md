@@ -4,7 +4,7 @@ Welcome to my personal portfolio — a professional, responsive, and modern web 
 
 ---
 
-## 🔗Live Preview: [Click Here To View The Live Demo](https://muqsit9portfolio.netlify.app/)
+## 🔗 Live Preview: [Click Here To View The Live Demo](https://muqsit9portfolio.netlify.app/)
 
 ---
 
@@ -67,7 +67,6 @@ Now open your browser and go to: http://localhost:5173
 
 
 ```
-
 
 
 ---
