@@ -1,0 +1,288 @@
+.mywork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 10%;
+}
+
+.mywork-title {
+  position: relative;
+}
+
+.mywork-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.mywork-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* Normal screen styles for mywork-item */
+.mywork-item {
+  position: relative;
+  height: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  /* Added transitions for the hover effect on the item itself */
+  transition: transform 0.3s ease, border 0.3s ease;
+  border: 4px solid transparent; /* Start with transparent border */
+}
+
+/* Hover effect for the entire mywork-item */
+.mywork-item:hover {
+  transform: scale(1.05); /* Scale the entire item */
+  border: 4px solid #ff00ff; /* Apply border to the entire item */
+}
+
+/* Scale the image/video within the hovered item (optional, adjust scale as desired) */
+.mywork-item:hover img,
+.mywork-item:hover video {
+  transform: scale(1.05); /* Match the parent's scale or slightly more/less */
+  /* Remove border if it was previously applied to img/video directly on hover */
+}
+
+.work-media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none; /* allows overlay to receive hover/click */
+}
+
+.clickable-area {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+}
+
+.left-area {
+  left: 0;
+  cursor: pointer;
+}
+
+.right-area {
+  right: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: transparent;
+  transition: background 0.3s ease;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.github-label {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right-area:hover {
+  background: linear-gradient(
+    270deg,
+    rgba(223, 137, 8, 0.2),
+    transparent /* Changed from rgba(180, 21, 255, 0.2) to transparent for a cleaner gradient */
+  );
+  border-radius: 0 10px 10px 0;
+}
+
+.right-area:hover .github-label {
+  opacity: 1;
+}
+
+.mywork-showmore {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 2px solid white;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.mywork-showmore img {
+  width: 25px;
+}
+
+.mywork-showmore:hover {
+  gap: 20px;
+  transition: 0.6s;
+  border-color: #b415ff;
+}
+
+
+.mywork-item {
+  position: relative;
+  /* Increase the height to make items larger */
+  height: 280px; /* Increased from 220px */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, border 0.3s ease;
+  border: 4px solid transparent; /* Start with transparent border */
+}
+
+/* Hover effect for the entire mywork-item */
+.mywork-item:hover {
+  transform: scale(1.05); /* Scale the entire item */
+  border: 4px solid #ff00ff; /* Apply border to the entire item */
+}
+
+/* Scale the image/video within the hovered item (optional, adjust scale as desired) */
+.mywork-item:hover img,
+.mywork-item:hover video {
+  transform: scale(1.05); /* Match the parent's scale or slightly more/less */
+}
+
+.mywork-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Keep 3 columns */
+  gap: 22px; /* Increased gap from 20px to 30px */
+  margin-top: 1px;
+}
+
+.section-instruction{
+    font-size: 22px;
+}
+
+/* Comprehensive rules to hide video controls across browsers */
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+video::-webkit-media-controls-panel {
+  display: none !important;
+}
+
+video::-webkit-media-controls-play-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-current-time-display {
+  display: none !important;
+}
+video::-webkit-media-controls-time-remaining-display {
+  display: none !important;
+}
+video::-webkit-media-controls-timeline {
+  display: none !important;
+}
+video::-webkit-media-controls-mute-button {
+  display: none !important;
+}
+video::-webkit-media-controls-volume-slider {
+  display: none !important;
+}
+video::-webkit-media-controls-fullscreen-button {
+  display: none !important;
+}
+
+/* For Firefox (Mozilla) */
+video::-moz-media-controls {
+  display: none !important;
+}
+
+/* For Internet Explorer/Edge */
+video::-ms-media-controls-container {
+  display: none !important;
+}
+video::-ms-play-button {
+  display: none !important;
+}
+video::-ms-seek-slider {
+  display: none !important;
+}
+video::-ms-fullscreen-button {
+  display: none !important;
+}
+video::-ms-volume-slider {
+  display: none !important;
+}
+video::-ms-mute-button {
+  display: none !important;
+}
+
+/* Crucial: Attempts to reset browser's default video element styling */
+video {
+  -webkit-appearance: none; /* For Webkit browsers */
+  -moz-appearance: none; /* For Firefox */
+  appearance: none; /* Standard */
+}
+
+
+@media (max-width: 768px) {
+  .mywork {
+    gap: 50px;
+    margin: 50px 6%;
+    align-items: start;
+  }
+  .mywork-title h1 {
+    padding: 0;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .mywork-title img {
+    width: 130px;
+    margin-right: -20px;
+  }
+
+  .mywork-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .mywork-item {
+    height: 180px;
+  }
+
+  .clickable-area {
+    width: 50%;
+  }
+
+  .right-area {
+    font-size: 0.9rem;
+    border-radius: 0; /* reset if needed */
+  }
+
+  .right-area:hover {
+    border-radius: 0 10px 10px 0;
+  }
+  .mywork-showmore {
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+  }
+  .mywork-showmore:hover {
+    gap: 16px;
+  }
+  .section-instruction{
+    font-size: 18px;
+}
+}
