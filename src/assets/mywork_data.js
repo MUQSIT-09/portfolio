@@ -46,7 +46,7 @@ const mywork_data = [
         w_img: Portfolio,
         w_video: Portfolio_vedio,
         live_link: window.location.href, // This ensures the link points to the current page
-        github_link: "https://github.com/muqsit-09/PORTFOLIO"
+        github_link: "https://github.com/MUQSIT-09/portfolio"
     },
     {
         w_no:6,
