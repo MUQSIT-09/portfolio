@@ -1,0 +1,7 @@
+# Set MIME type for MP4 videos in the Portfolio_Videos directory
+/assets/Portfolio_Videos/*.mp4
+  Content-Type: video/mp4
+
+# Optional: General rule for HTML pages (good practice, can be omitted if you only care about videos)
+/*
+  Content-Type: text/html; charset=UTF-8
