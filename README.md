@@ -12,54 +12,49 @@ Welcome to my personal portfolio — a professional, responsive, and modern web 
 
 ---
 
+🚀 Features
 
+⚛️ React.js based Single Page Application
 
-## 🚀 Features
+📱 Mobile-first responsive layout
 
+📧 Web3Forms integration to receive emails via contact form
 
+🖼️ Project Gallery with images and video embeds
 
-- ⚛️ **React.js** based Single Page Application
+🎥 Video preview support for showcasing dynamic projects
 
-- 📱 **Mobile-first responsive** layout
+🔗 Hoverable links for interactive navigation
 
-- 📧 **Web3Forms** integration to receive emails via contact form
+🎨 Clean, modern, and minimal UI
 
-- 🖼️ **Project Gallery** with images and **video embeds**
+🔒 _headers file setup for Netlify (custom headers and CORS)
 
-- 🎥 Video preview support for showcasing dynamic projects
+🛠️ Tech Stack
 
-- 🔗 **Hoverable links** for interactive navigation
+Technology
 
-- 🎨 Clean, modern, and minimal UI
+Role
 
-- 🔒 `_headers` file setup for Netlify (custom headers and CORS)
+React.js
 
+Frontend framework
 
+HTML5 / CSS3
 
----
+Structure and styling
 
+JavaScript
 
+Interactive logic
 
-## 🛠️ Tech Stack
+Web3Forms
 
+Backendless contact form
 
+Netlify
 
-| Technology       | Role                      |
-
-|------------------|---------------------------|
-
-| **React.js** | Frontend framework        |
-
-| **HTML5 / CSS3** | Structure and styling     |
-
-| **JavaScript** | Interactive logic         |
-
-| **Web3Forms** | Backendless contact form  |
-
-| **Netlify** | Hosting and deployment    |
-
-
-
+Hosting and deployment
 ---
 
 
