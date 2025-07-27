@@ -9,55 +9,32 @@ Welcome to my personal portfolio — a professional, responsive, and modern web 
 > 🔗 **Live Preview**: [Click Here To View The Live Demo]https://muqsit9portfolio.netlify.app/)
 
 
+---
+
+## 🚀 Features
+
+- ⚛️ **React.js** based Single Page Application  
+- 📱 **Mobile-first responsive** layout  
+- 📧 **Web3Forms** integration to receive emails via contact form  
+- 🖼️ **Project Gallery** with images and **video embeds**  
+- 🎥 Video preview support for showcasing dynamic projects  
+- 🔗 **Hoverable links** for interactive navigation  
+- 🎨 Clean, modern, and minimal UI  
+- 🔒 `_headers` file setup for Netlify (custom headers and CORS)
 
 ---
 
-🚀 Features
+## 🛠️ Tech Stack
 
-⚛️ React.js based Single Page Application
+| Technology       | Role                      |
+|------------------|---------------------------|
+| **React.js**     | Frontend framework        |
+| **HTML5 / CSS3** | Structure and styling     |
+| **JavaScript**   | Interactive logic         |
+| **Web3Forms**    | Backendless contact form  |
+| **Netlify**      | Hosting and deployment    |
 
-📱 Mobile-first responsive layout
-
-📧 Web3Forms integration to receive emails via contact form
-
-🖼️ Project Gallery with images and video embeds
-
-🎥 Video preview support for showcasing dynamic projects
-
-🔗 Hoverable links for interactive navigation
-
-🎨 Clean, modern, and minimal UI
-
-🔒 _headers file setup for Netlify (custom headers and CORS)
-
-🛠️ Tech Stack
-
-Technology
-
-Role
-
-React.js
-
-Frontend framework
-
-HTML5 / CSS3
-
-Structure and styling
-
-JavaScript
-
-Interactive logic
-
-Web3Forms
-
-Backendless contact form
-
-Netlify
-
-Hosting and deployment
 ---
-
-
 
 ## 📁 Installation
 
